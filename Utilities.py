@@ -33,7 +33,7 @@ def buildWebServerFromDockFile(filePath):
 
 
 def pullMongoImage():
-    for line in lowLevelClient.pull('mongo', stream=True, decode=True):
+    for line in lowLevelClient.pull('mongo',tag="latest", stream=True, decode=True):
         print line
 
 
@@ -59,6 +59,7 @@ def startWebServer():
         links={'mongodb': 'mongodb'},
         remove=True,
         detach=True)
+    print webServerContainer.logs()
     return webServerContainer
 
 
