@@ -10,7 +10,7 @@ Utilities.createDockFile()
 Utilities.buildWebServerFromDockFile(os.getcwd())
 
 #pull mongo image from repository
-Utilities.pullMongoImage()
+#Utilities.pullMongoImage()
 
 #start mongo container
 Utilities.startMongodbContainer()

@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-#Instructions on script installation
+# Instructions on script installation
 * Run "pip install -r requirements.txt" to install the required dependencies
 * Run "python setup.py" to set up the web server and database on a VM container
 * Browse to localhost://3000
