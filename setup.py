@@ -10,13 +10,14 @@ Utilities.createDockFile()
 Utilities.buildWebServerFromDockFile(os.getcwd())
 
 #pull mongo image from repository
-#Utilities.pullMongoImage()
+Utilities.pullMongoImage()
 
 #start mongo container
 mongoDbContainer = Utilities.startMongodbContainer()
 
 #start web server container and link to mongo db
 weberverContainer = Utilities.startWebServer()
+weberverContainer.logs()
 
-#log out to window
+#log output to window
 Utilities.runOutputLogs(mongoDbContainer)

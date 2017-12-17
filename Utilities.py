@@ -59,7 +59,6 @@ def startWebServer():
         links={'mongodb': 'mongodb'},
         remove=True,
         detach=True)
-    print webServerContainer.logs()
     return webServerContainer
 
 
