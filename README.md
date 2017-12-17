@@ -5,7 +5,7 @@
 * Run "pip install -r requirements.txt" to install the required dependencies
 * Run "python setup.py" to set up the web server and database on a VM container
 * Browse to localhost://3000
-* Check API documentation on endpoints to test.
+* Check API documentation on endpoints to test using POSTMAN or any suitable tool.
 
 
 # User Manager
